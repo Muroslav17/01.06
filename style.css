@@ -1,0 +1,70 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        'header header  header1 header1'
+        'aside  main    main    main '
+        'footer footer  footer  footer';
+    grid-gap: 5px;
+    text-align: center;
+    font-size: 24pt;
+}
+.container div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    grid-area: header;
+    background-color: orange;
+    width: 201%;
+    height: 75px;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: blue;
+    height: 600px;
+}
+
+.main {
+    grid-area: main;
+    background-color: yellow;
+    height: 500px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: green;
+    height: 43px;
+    width: 75%;
+    position: relative;
+    top: -90px;
+    right: -315px;
+    z-index: 1;
+    
+}
+
+.b1 {
+    width: 20%;
+    height: 5%;
+    background-color: #e75480;
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    z-index: 1;
+    
+}
+
+.b2 {
+    width: 20%;
+    height: 5%;
+    background-color: orange;
+    position: absolute;
+    top: 400px;
+    right: 150px;
+}
+}
+.container div {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
